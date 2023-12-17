@@ -2,7 +2,7 @@
   "name": "ndecode",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://mkkhedawat.github.io/ndecode-bkp",
+  "homepage": "https://mkkhedawat.github.io/ndecode",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
