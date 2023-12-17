@@ -1,0 +1,71 @@
+.TextBlock {
+  position: relative;
+  display: inline-block;
+  border: 0.12em dashed #666666;
+  width: 100%;
+  max-width: 97%;
+  margin-bottom: 2rem;
+  background-color: #fff;
+}
+
+.TextBlock:hover,
+.TextBlock:focus {
+  border: 0.12em dotted #449d5d;
+  outline: 0.12em dotted #449d5d;
+  color: #449d5d;
+}
+
+.TextBlock .content {
+  text-align: left;
+  padding: 1rem;
+  border: none;
+  resize: none;
+  outline: none;
+  min-height: 10rem;
+  width: 100%;
+}
+
+.TextBlock .content:hover {
+  color: #449d5d;
+}
+
+.TextBlock .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #171717;
+  align-content: center;
+  flex-wrap: nowrap;
+  padding-top: 0.4rem;
+}
+
+.TextBlock .icon {
+  color: #666666;
+  margin-left: 0.5rem;
+}
+
+.TextBlock .copy-icon {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  cursor: pointer;
+  color: #666666;
+}
+
+.TextBlock .copy-icon:hover {
+  color: #449d5d;
+}
+
+@media screen and (min-width: 768px) {
+  .TextBlock {
+    max-width: 48%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .TextBlock {
+    max-width: 28%;
+  }
+}

@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 2rem;
+  color: #171717;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.App .header .header-prefix {
+  color: #449d5d;
+}
+
+.App .container {
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+}
