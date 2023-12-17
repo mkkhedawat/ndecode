@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ndecode-bkp/static/css/main.934e101b.css",
-    "main.js": "/ndecode-bkp/static/js/main.b2f5cf3e.js",
-    "index.html": "/ndecode-bkp/index.html",
-    "main.934e101b.css.map": "/ndecode-bkp/static/css/main.934e101b.css.map",
-    "main.b2f5cf3e.js.map": "/ndecode-bkp/static/js/main.b2f5cf3e.js.map"
+    "main.css": "/ndecode/static/css/main.934e101b.css",
+    "main.js": "/ndecode/static/js/main.b2f5cf3e.js",
+    "index.html": "/ndecode/index.html",
+    "main.934e101b.css.map": "/ndecode/static/css/main.934e101b.css.map",
+    "main.b2f5cf3e.js.map": "/ndecode/static/js/main.b2f5cf3e.js.map"
   },
   "entrypoints": [
     "static/css/main.934e101b.css",
